@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1>Semillero Semard</h1>
+		<p>Página oficial del semillero de arduino.</p>
+	</body>
+</html>
