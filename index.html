@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Semillero de Arduino">
     <meta name="author" content="Semard">
 
     <title>Semard</title>
@@ -14,7 +12,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
@@ -43,76 +41,146 @@
 </head>
 
 <body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">Semard</a>
+      <div class="collapse navbar-collapse" id="navbarExample">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#integrantes">Integrantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-            <a class="navbar-brand" href="#page-top">Semard</a>
-            <div class="collapse navbar-collapse" id="navbarExample">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#proyectos">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#integrantes">Integrantes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <header class="masthead">
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1 id="homeHeading">Semillero de investigacion de arduino</h1>
+        <hr>
+        <p>Explorando el uso de las tecnologías como parte fundamental del desarrollo e innovación, centrando el estudio en la plataforma de prototipos electrónica de código abierto Arduino.</p>
+        <a class="btn btn-primary btn-xl" href="#about">Acerca de nosotros</a>
+      </div>
+    </div>
+  </header>
 
-    <header class="masthead">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Semillero de investigacion de arduino</h1>
-                <hr>
-                <p>Explorando el uso de las tecnologías como parte fundamental del desarrollo e innovación, centrando el estudio en la plataforma de prototipos electrónica de código abierto Arduino.</p>
-                <a class="btn btn-primary btn-xl" href="#about">Acerca de nosotros</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <h2 class="section-heading text-white">El Semillero</h2>
-                    <hr class="light">
-                    <p class="text-faded">El semillero de investigacion de arduino busca desarrollar proyectos interactuando con el entorno,  creando soluciones a problematicas del dia a dia por medio de prototipos electronicos apoyados en la plataforma Arduino.</p>
-                    <h2 class="section-heading text-white">Objetivos</h2>
-                    <hr class="light">
-                    <p class="text-faded">Diseñar prototipos didacticos que con ayuda de la imaginacion y la creatividad, puedan intervenir en la vida de las personas y faciliten la relacion con el medio.</p>
-                    <p class="text-faded">Propagar los conocimientos referentes a la programacion y desarrollo electronico, de manera practica, facil y  abierta para la creación de prototipos con la posibilidad de basarse en software y hardware flexibles.</p>
-                    <h2 class="section-heading text-white">Misión</h2>
-                    <hr class="light">
-                    <p class="text-faded">Contribuir y fomentar el estudio y la innovación  en el desarrollo electrónico promoviendo la eficacia en el perfeccionamiento de los prototipos creados;  liderando y participando en proyectos innovadores, coherentes y útiles; beneficiando el progreso y la mejora  constante mediante el aprovechamiento e interacción con el  entorno, logrando generar  y difundir conocimientos de manera didáctica. </p>
-                    <h2 class="section-heading text-white">Visión</h2>
-                    <hr class="light">
-                    <p class="text-faded">Ser un grupo reconocido y clasificado, que habrá generado proyectos de investigación con impacto en la comunidad académica, científica y en el sector productivo del país; con evidencia de solución de problemas en el ámbito de la educación, y de avances en el conocimiento tecnológico en el área electrónica con ayuda de plataformas open-source.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="call-to-action bg-dark" id="proyectos">
-        <div class="container text-center">
-            <h2 class="section-heading text-white">Proyectos</h2>
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <h2 class="section-heading text-white">El Semillero</h2>
             <hr class="light">
-            <h3>El semillero se encuentra trabajando actualmente en tres proyectos.</h3>
+            <p class="text-faded">El semillero de investigacion de arduino busca desarrollar proyectos interactuando con el entorno,  creando soluciones a problematicas del dia a dia por medio de prototipos electronicos apoyados en la plataforma Arduino.</p>
+            <h2 class="section-heading text-white">Objetivos</h2>
+            <hr class="light">
+            <p class="text-faded">Diseñar prototipos didacticos que con ayuda de la imaginacion y la creatividad, puedan intervenir en la vida de las personas y faciliten la relacion con el medio.</p>
+            <p class="text-faded">Propagar los conocimientos referentes a la programacion y desarrollo electronico, de manera practica, facil y  abierta para la creación de prototipos con la posibilidad de basarse en software y hardware flexibles.</p>
+            <h2 class="section-heading text-white">Misión</h2>
+            <hr class="light">
+            <p class="text-faded">Contribuir y fomentar el estudio y la innovación  en el desarrollo electrónico promoviendo la eficacia en el perfeccionamiento de los prototipos creados;  liderando y participando en proyectos innovadores, coherentes y útiles; beneficiando el progreso y la mejora  constante mediante el aprovechamiento e interacción con el  entorno, logrando generar  y difundir conocimientos de manera didáctica. </p>
+            <h2 class="section-heading text-white">Visión</h2>
+            <hr class="light">
+            <p class="text-faded">Ser un grupo reconocido y clasificado, que habrá generado proyectos de investigación con impacto en la comunidad académica, científica y en el sector productivo del país; con evidencia de solución de problemas en el ámbito de la educación, y de avances en el conocimiento tecnológico en el área electrónica con ayuda de plataformas open-source.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <a class="btn btn-default btn-xl sr-button" href="">Repositorio del semillero</a>
+  <div class="call-to-action bg-dark" id="proyectos">
+    <div class="container text-center">
+      <h2 class="section-heading text-white">Proyectos</h2>
+      <hr class="light">
+      <h3>El semillero se encuentra trabajando actualmente en cuatro proyectos aprobados por la vicerectoria de investigacion de la Universidad de Cartagena.</h3>
+      <hr class="light">
+      <div class="row">
+        <div class="col-sm-6">
+          <a class="portfolio-box">
+          <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Sistema de medicion automatizada de variables ambientales para agricultura de precision con Software Libre
+              </div>
+              <div class="project-name">
+                Octava convocatoria de grupos de investigacion
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col-sm-6">
+          <a class="portfolio-box">
+          <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Sistema de Riego Autónomo e Inteligente con capacidad de monitorear variables climáticas
+              </div>
+              <div class="project-name">
+                Octava convocatoria de semilleros de investigacion
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+      <hr>
+            <div class="row">
+              <div class="col-sm-6">
+                <a class="portfolio-box">
+                    <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                              Sistema de monitoreo automatizado de parámetros fisicoquímicos en estanques de granjas piscícola
+                            </div>
+                            <div class="project-name">
+                                Novena convocatoria de grupos de investigacion
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+              </div>
+              <div class="col-sm-6">
+                <a class="portfolio-box">
+                    <img class="img-fluid" src="img/Imagen SAT.png" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                              Sistema de Monitoreo de Deslizamientos de Tierra para Alerta Temprana Mediante Internet de las Cosas
+                            </div>
+                            <div class="project-name">
+                                Novena convocatoria de semilleros de investigacion
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+              </div>
+
+            </div>
+              <hr>
+              <a class="btn btn-default btn-xl sr-button" href="https://github.com/SemardUDC">Repositorio del semillero</a>
+            </div>
+
         </div>
     </div>
 
@@ -125,10 +193,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Arduino
+                                    Proyecto de riego automatizado
                                 </div>
                                 <div class="project-name">
-                                    Mega
+                                    Sci-Fab Lab
                                 </div>
                             </div>
                         </div>
@@ -140,10 +208,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Arduino
+                                    Tester electrico
                                 </div>
                                 <div class="project-name">
-                                    Leds
+                                    Sci-Fab Lab
                                 </div>
                             </div>
                         </div>
@@ -155,10 +223,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Arduino
+                                    Encuentro de Investigación Unicartagena
                                 </div>
                                 <div class="project-name">
-                                    Adafruit motor
+                                    Universidad de Cartagena
                                 </div>
                             </div>
                         </div>
@@ -170,10 +238,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Arduino
+                                    Encuentro de Investigación Unicartagena
                                 </div>
                                 <div class="project-name">
-                                    Blink led
+                                    Universidad de Cartagena
                                 </div>
                             </div>
                         </div>
@@ -185,10 +253,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Arduino
+                                    Modelado 3D
                                 </div>
                                 <div class="project-name">
-                                    Project
+                                    Sci-Fab Lab
                                 </div>
                             </div>
                         </div>
@@ -200,10 +268,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Arduino
+                                    Testing
                                 </div>
                                 <div class="project-name">
-                                    Explora
+                                    Sci-Fab Lab
                                 </div>
                             </div>
                         </div>
@@ -214,127 +282,169 @@
     </section>
 
     <section id="integrantes">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Integrantes</h2>
-                    <hr class="primary">
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Integrantes</h2>
+            <hr class="primary">
+          </div>
         </div>
-        <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-12 text-center">
-                  <div class="service-box">
-                      <i class="fa fa-4x fa-user-circle text-primary sr-icons"></i>
-                      <h3> Cristian Arrieta Pacheco</h3>
-                      <p class="text-muted">Ingenieria de Sistemas</p>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-12 text-center">
-                  <div class="service-box">
-                      <i class="fa fa-4x fa-user-circle text-primary sr-icons"></i>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221310027.jpg" alt="">
+              <h3> Cristian Arrieta</h3>
+              <p class="text-muted">Estudiante Ingenieria en Sistemas  &nbsp;&nbsp;</p>
+              <a href="#">
+                <i class="fab fa-github" style="font-size:36px"></i>
+              </a>
+              <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#cristianModal">Ver perfil</button>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
                       <h3> Amaury Cabarcas</h3>
-                      <p class="text-muted">Ingeniero de Sistemas</p>
+                      <p class="text-muted">Docente Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#amauryModal">Ver perfil</button>
                   </div>
               </div>
-              <div class="col-lg-4 col-md-12 text-center">
-                  <div class="service-box">
-                      <i class="fa fa-4x fa-user-circle text-primary sr-icons"></i>
-                      <h3> Javier Montoya</h3>
+              <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+                      <h3>Javier Montoya</h3>
                       <p class="text-muted">Fisico</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#javierModal">Ver perfil</button>
                   </div>
               </div>
             </div>
-            <hr>
             <div class="row">
-                <div class="col-md-1 text-center">
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Ariel Arnedo Cervantes</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Astrid Vanegas Chinchilla</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Daniel Reyes Betancourt</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Amaury Ortega Camargo</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>David Cermeño Pinzon</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-1 text-center">
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-md-1 text-center">
+              <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221420026.jpg" alt="">
+                      <h3> David Cermeño</h3>
+                      <p class="text-muted">Estudiante Ingenieria de Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#davidModal">Ver perfil</button>
+                  </div>
               </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Camilo Rosales Marraui</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Rafael Mendoza Rodriguez</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Juanma Torres Perez</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Daniel Pombo Ortega</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-user-o text-primary sr-icons"></i>
-                        <h3>Humberto Leal Betancur</h3>
-                        <p class="text-muted">Ingenieria de Sistemas</p>
-                    </div>
-                </div>
-                <div class="col-md-1 text-center">
-                </div>
+              <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221510013.jpg" alt="">
+                      <h3> Humerto Leal</h3>
+                      <p class="text-muted">Estudiante Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#humbertoModal">Ver perfil</button>
+                  </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221420024.jpg" alt="">
+                      <h3>Rafael Mendoza</h3>
+                      <p class="text-muted">Estudiante Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#rafaelModal">Ver perfil</button>
+                  </div>
+              </div>
             </div>
-            <hr>
+            <div class="row">
+              <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221510029.jpg" alt="">
+                      <h3> Daniel Pombo</h3>
+                      <p class="text-muted">Estudiante Ingenieria de Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#danielModal">Ver perfil</button>
+                  </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+                      <h3> Camilo Rosales</h3>
+                      <p class="text-muted">Estudiante Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#camiloModal">Ver perfil</button>
+                  </div>
+              </div>
+              <div class="col-sm-4 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221510035.jpg" alt="">
+                      <h3>Juan Torres</h3>
+                      <p class="text-muted">Estudiante Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#juanModal">Ver perfil</button>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221510058.jpg" alt="">
+                      <h3> Camilo Acosta</h3>
+                      <p class="text-muted">Estudiante Ingenieria de Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-sm-3 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221510009.jpg" alt="">
+                      <h3> Alvaro Ariza</h3>
+
+                      <p class="text-muted">Estudiante Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-sm-3 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221510041.jpg" alt="">
+                      <h3>Rafael Herrera</h3>
+
+                      <p class="text-muted">Estudiante Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-sm-3 text-center">
+                  <div class="team-member">
+                      <img class="mx-auto rounded-circle" src="http://190.242.62.230:8090/smaix12/utility/photos/0221510024.jpg" alt="">
+                      <h3>Santiago Rhenals</h3>
+
+                      <p class="text-muted">Estudiante Ingenieria en Sistemas</p>
+                      <a href="#">
+                        <i class="fab fa-github" style="font-size:36px"></i>
+                      </a>
+                  </div>
+              </div>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
+    <section class="bg-dark" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
@@ -342,20 +452,212 @@
                     <hr class="primary">
                     <p>Contactenos para mayor información.</p>
                 </div>
-                <div class="col-lg-2 offset-lg-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <img src="img/logo_sistemas.PNG" width="128" height="128">
-                </div>
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-12 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">contacto@semard.edu.co</a></p>
                 </div>
             </div>
+            <div class="row">
+              <div class="col-lg-3"></div>
+              <div class="col-lg-3 text-center">
+                  <img src="img/Logo Semard.png" width="128" height="128">
+              </div>
+              <div class="col-lg-3 text-center">
+                  <img src="img/logo_sistemas.PNG" width="128" height="128">
+              </div>
+              <div class="col-lg-3"></div>
+            </div>
         </div>
     </section>
+
+    <div class="modal fade" id="cristianModal" tabindex="-1" role="dialog" aria-labelledby="cristianModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="cristianModalLabel">Cristian Arrieta</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Lider del Semillero. Estudiante de decimo semestre de Ingenieria de Sistemas.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="amauryModal" tabindex="-1" role="dialog" aria-labelledby="amauryModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="amauryModalLabel">Ms.C. Amaury Cabarcas</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Profesor lider del Semillero, ingenierio en sistemas.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="javierModal" tabindex="-1" role="dialog" aria-labelledby="javierModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="javierModalLabel">Dr. Javier Montoya</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Profesor patrociandor del Semillero, Doctor en Fisca.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="davidModal" tabindex="-1" role="dialog" aria-labelledby="davidModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="davidModalLabel">David Cermeño</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Estudiante de noveno semestre de Ingenieria en sistemas, investigador activo del semillero.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="humbertoModal" tabindex="-1" role="dialog" aria-labelledby="humertoModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="humbertoModalLabel">Humerto Leal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Estudiante de octavo semestre de Ingenieria en sistemas, investigador activo del semillero.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="rafaelModal" tabindex="-1" role="dialog" aria-labelledby="rafaelModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="rafaelModalLabel">Rafael Mendoza</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Estudiante de noveno semestre de Ingenieria en sistemas, investigador activo del semillero.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="danielModal" tabindex="-1" role="dialog" aria-labelledby="danielModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="danielModalLabel">Daniel Pombo</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Estudiante de octavo semestre de Ingenieria en sistemas, investigador activo del semillero.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="camiloModal" tabindex="-1" role="dialog" aria-labelledby="camiloModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="camiloModalLabel">Camilo Rosales</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Estudiante de noveno semestre de Ingenieria en sistemas, investigador activo del semillero.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="juanModal" tabindex="-1" role="dialog" aria-labelledby="juanModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="juanModalLabel">Juan Torres</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Estudiante de octavo semestre de Ingenieria en sistemas, investigador activo del semillero.
+              Proyectos a cargo:
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
